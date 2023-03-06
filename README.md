@@ -17,7 +17,6 @@ These steps will teach how to write a basic bash echo workflow in Github Actions
 
 1. Copy and paste the following code into the **`echo-workflow.yml`** file:
 ```
-yamlCopy code
 name: Echo Workflow
 
 on:
