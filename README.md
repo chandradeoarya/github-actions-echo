@@ -22,10 +22,10 @@ name: Echo Workflow
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 jobs:
   echo-job:
     runs-on: ubuntu-latest
