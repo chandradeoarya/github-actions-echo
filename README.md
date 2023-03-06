@@ -17,25 +17,25 @@ These steps will teach how to write a basic bash echo workflow in Github Actions
 
 1. Copy and paste the following code into the **`echo-workflow.yml`** file:
 ```
+---
 name: Echo Workflow
-
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   pull_request:
-    branches: [ main ]
-
+    branches:
+      - main
 jobs:
   echo-job:
     runs-on: ubuntu-latest
     steps:
-    - name: Echo Message
-      run: echo "Hello, DevOps!"
-		- name: Multi line step
+      - name: Echo Message
+        run: echo "Hello, DevOps!"
+      - name: Multi line step
         run: |
           pwd
           ls
-
 ```
 ### Explaining the workflow file:
 
