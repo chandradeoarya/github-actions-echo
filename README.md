@@ -35,7 +35,6 @@ jobs:
       - name: Multi line step
         run: |
           pwd
-          ls
 ```
 ### Explaining the workflow file:
 
